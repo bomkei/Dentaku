@@ -131,7 +131,7 @@ namespace dentaku {
         numview.Text = "";
       }
 
-      if (last_calc_button != null) {
+      if (last_calc_button != null && !numchanged) {
         numview.Text = "";
       }
 
